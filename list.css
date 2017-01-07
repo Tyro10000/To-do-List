@@ -6,7 +6,7 @@ input{
     height:20px; 
 }
 .field{
-    width:200px;
+    width:275px;
     display: inline-block;
     border:none;
 }
@@ -24,7 +24,7 @@ input{
     
 }
 .textbox{
-    width:230px;
+    width:300px;
     height:25px;
     padding:5px;
     padding-left: 20px;
@@ -41,26 +41,26 @@ input{
     position:absolute;   
 }
 #content-frame{
-    height: 300px;
-    width: 225px;
+    height: 290px;
+    width: 290px;
     border: 5px solid #68F0C2;
     border-radius: 10px 10px 0px 0px;
     padding:15px;
-    padding-left:5px;
+    padding-left:10px;
     padding-right:25px;
     margin-top:10px;
     overflow-y: scroll;
 }
 .options{
-    width:250px;
+    width:325px;
     margin-left: auto;
     margin-right: auto;
 }
 .menu{
-    width:280px;
+    width:350px;
 }
 .frameitem{
-    width:200px;
+    width:250px;
     height:25px;
     background-color:#68F076;
     border: 1px solid #68F076;
