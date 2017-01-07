@@ -12,7 +12,7 @@ input{
     color:white;
 }
 .field{
-    width:90%;
+    width:78%;
     display: inline-block;
     border:none;
 }
@@ -44,10 +44,22 @@ input{
     background-color:#423AA6;
     border-radius:25px;
     display:inline-block;
-    position:absolute;   
+    position:absolute;  
+    left:80%;  
+    color:white;
+}
+.circle2{
+    height:25px;
+    width:25px;
+    background-color:red;
+    border-radius:25px;
+    display:inline-block;
+    position:absolute; 
+    left:85%;  
+    color:white;
 }
 #content-frame{
-    height:500px;
+    
     width: 90%;
     border: 0px solid #423AA6;
     border-radius: 15px 15px 15px 15px;
