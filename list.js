@@ -15,7 +15,7 @@ function relist(){
     document.getElementById("content-frame").innerHTML =  "";
     for(x = 0; x < Items.length; x++){
         var dus = '"' + Items[x] + '"';
-        document.getElementById("content-frame").innerHTML +="<div  class='frameitem' id="+Items[x]+">" +Items[x] + "<i class='fa fa-times pull-right' onclick='pop("+dus+")'></i></div>";
+        document.getElementById("content-frame").innerHTML +="<div  class='frameitem' id="+dus+">" +Items[x] + "<i class='fa fa-check pull-right' onclick='flag("+dus+")'></i><i class='fa fa-times pull-right' onclick='pop("+dus+")'></i></div>";
     }
 }
 function clean(){
@@ -29,8 +29,8 @@ refresh();
 
 function flag(line){
  if (document.getElementById(line).style.color == "red")
-        document.getElementById(line).style.color  = "blue";
-else if (document.getElementById(line).style.color == "blue")
+        document.getElementById(line).style.color  = "lightgreen";
+else if (document.getElementById(line).style.color == "lightgreen")
         document.getElementById(line).style.color  = "white";
 else 
         document.getElementById(line).style.color  = "red";
