@@ -18,7 +18,7 @@
                                                         width: 55%;
                                                         display: inline-block;
                                                         border: none;
-                                                        background-color: #FCE374;
+                                                        background-color: #bfbfbf;
                                                         border-bottom: 5px solid white;
                                                         margin-left: 5%
                                                     }
@@ -68,7 +68,7 @@
                                                         padding: 15px;
                                                         padding-left: 10px;
                                                         padding-right: 25px;
-                                                        margin-top: 10px;
+                                                        margin-top: 160px;
                                                         overflow-y: scroll;
                                                     }
                                                     
@@ -80,7 +80,12 @@
                                                     
                                                     .menu {
                                                         width: 100%;
-                                                        height: 100%;
+                                                        height: 150px;
+                                                        position: fixed;
+                                                        top: 0;
+                                                        left: 0;
+                                                        background-color: #bfbfbf;
+                                                        border-bottom: 0px solid black;
                                                     }
                                                     
                                                     .frameitem {
