@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <link rel="stylesheet" type="text/css" href="list.css">
-        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-		<title>To-Do List</title>
-	</head>
-	<body>
-        <div class="menu">
-            
-                <p style="text-align:center; font-size:30px;">To-Do List</p>
-            
-            <div class="textbox">
-                <input type="text" class="field" id="newitem"></input>
-                <button class="circle" onclick="add()"><i class='fa fa-plus'></i></button>
-                <button class="circle2" onclick="clean()"><i class='fa fa-times'></i></button>
-            </div>
-            <div id="content-frame">
-            
-            </div>
-        
-           <!-- <div class="options">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="list.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="menu">
+
+        <p style="text-align:center; font-size:30px;">To-Do List</p>
+
+        <div class="textbox">
+            <input type="text" class="field" id="newitem"></input>
+            <button class="btn" onclick="add()"><i class='fa fa-plus'></i></button>
+            <button class="btn" onclick="clean()"><i class='fa fa-times'></i></button>
+        </div>
+        <div id="content-frame">
+
+        </div>
+
+        <!-- <div class="options">
                 <button class="framebutton" onclick="add()">Add</button>
                 <button class="framebutton" onclick="refresh()">Refresh</button>
             </div>
             <div class="options">
                 <button class="framebutton" onclick="clean()">Clean</button>
             </div>-->
-        </div>
-        
-	</body>
-    <script type="text/javascript" src="list.js"></script> 
+    </div>
+
+</body>
+<script type="text/javascript" src="list.js"></script>
+
 </html>
