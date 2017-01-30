@@ -15,11 +15,12 @@
                                                     }
                                                     
                                                     .field {
-                                                        width: 78%;
+                                                        width: 55%;
                                                         display: inline-block;
                                                         border: none;
                                                         background-color: #FCE374;
                                                         border-bottom: 5px solid white;
+                                                        margin-left: 5%
                                                     }
                                                     
                                                     .framebutton {
