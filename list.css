@@ -15,50 +15,17 @@
                                                     }
                                                     
                                                     .field {
-                                                        width: 55%;
+                                                        width: 45%;
                                                         display: inline-block;
                                                         border: none;
-                                                        background-color: #bfbfbf;
-                                                        border-bottom: 5px solid white;
+                                                        background: none;
+                                                        border-bottom: 5px solid black;
                                                         margin-left: 5%
-                                                    }
-                                                    
-                                                    .framebutton {
-                                                        width: 100px;
-                                                        height: 30px;
-                                                        background-color: #38529C;
-                                                        border: 1px solid #38529C;
-                                                        margin: 1px;
-                                                        margin-top: 5px;
-                                                        color: white;
-                                                        font-size: 20px;
                                                     }
                                                     
                                                     .textbox {
                                                         width: 90%;
                                                         vertical-align: middle;
-                                                    }
-                                                    
-                                                    .circle {
-                                                        height: 25px;
-                                                        width: 25px;
-                                                        background-color: #423AA6;
-                                                        border-radius: 25px;
-                                                        display: inline-block;
-                                                        position: absolute;
-                                                        left: 80%;
-                                                        color: white;
-                                                    }
-                                                    
-                                                    .circle2 {
-                                                        height: 25px;
-                                                        width: 25px;
-                                                        background-color: red;
-                                                        border-radius: 25px;
-                                                        display: inline-block;
-                                                        position: absolute;
-                                                        left: 88%;
-                                                        color: white;
                                                     }
                                                     
                                                     #content-frame {
@@ -68,14 +35,8 @@
                                                         padding: 15px;
                                                         padding-left: 10px;
                                                         padding-right: 25px;
-                                                        margin-top: 160px;
+                                                        margin-top: 140px;
                                                         overflow-y: scroll;
-                                                    }
-                                                    
-                                                    .options {
-                                                        width: 325px;
-                                                        margin-left: auto;
-                                                        margin-right: auto;
                                                     }
                                                     
                                                     .menu {
@@ -84,7 +45,7 @@
                                                         position: fixed;
                                                         top: 0;
                                                         left: 0;
-                                                        background-color: #bfbfbf;
+                                                        background-image: url("Menu-pic.jpg");
                                                         border-bottom: 0px solid black;
                                                     }
                                                     
@@ -98,7 +59,7 @@
                                                         font-family: Verdana;
                                                         width: 80%;
                                                         height: 30px;
-                                                        font-size: 16px;
+                                                        font-size: 22px;
                                                         padding: 10px 40px;
                                                         box-shadow: inset 0 1px 0 0 #fff, inset 0 -1px 0 0 #d9d9d9, inset 0 0 0 1px #f2f2f2, 0 2px 4px 0 #f2f2f2;
                                                         -moz-box-shadow: inset 0 1px 0 0 #fff, inset 0 -1px 0 0 #d9d9d9, inset 0 0 0 1px #f2f2f2, 0 2px 4px 0 #f2f2f2;
