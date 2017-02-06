@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
-        version   = "1.0.0">
+        id        = "com.Tyrone.edu"
+        version   = "1.2.0">
 
-    <name>Hello World</name>
+    <name>To-Do List</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        A Simple application that keeps track of current task.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+        Tyrone Mcelrath
     </author>
 
     <!--
@@ -71,20 +71,20 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="paper.png" />
-    <icon src="paper.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="paper.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="paper.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="paper.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="paper.png"     gap:platform="blackberry" />
-    <icon src="paper.png"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="paper.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="paper.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="paper.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="paper.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="paper.png"          gap:platform="webos" />
-    <icon src="paper.png"  gap:platform="winphone" />
-    <icon src="paper.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="paper.jpg" />
+    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="paper.jpg"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="paper.jpg"     gap:platform="blackberry" />
+    <icon src="paper.jpg"     gap:platform="blackberry" gap:state="hover"/>
+    <icon src="paper.jpg"            gap:platform="ios"        width="57" height="57" />
+    <icon src="paper.jpg"            gap:platform="ios"        width="72" height="72" />
+    <icon src="paper.jpg"         gap:platform="ios"        width="114" height="114" />
+    <icon src="paper.jpg"         gap:platform="ios"        width="144" height="144" />
+    <icon src="paper.jpg"          gap:platform="webos" />
+    <icon src="paper.jpg"  gap:platform="winphone" />
+    <icon src="paper.jpg" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
