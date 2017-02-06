@@ -43,7 +43,7 @@ function relist() {
     for (x = 0; x < Items.length; x++) {
         var dus = '"' + Items[x].name + '"';
         if (Items[x].head != "x") {
-            document.getElementById("content-frame").innerHTML += "<div  class='frameitem' id=" + dus + ">" + Items[x].name + "<i class='fa fa-check pull-right' onclick='flag(" + dus + ")'></i><i class='fa fa-times pull-right' onclick='pop(" + dus + ")'></i></div>";
+            document.getElementById("content-frame").innerHTML += "<div draggable='true' ondragstart='drag(event)' ondrop='drop(event)' ondragover='allowDrop(event)' class='frameitem' id=" + dus + ">" + Items[x].name + "<i class='fa fa-check pull-right' onclick='flag(" + dus + ")'></i><i class='fa fa-times pull-right' onclick='pop(" + dus + ")'></i></div>";
             document.getElementById(Items[x].name).style.color = Items[x].color;
         } else {
             document.getElementById("content-frame").innerHTML += "<div  style='text-align:center' class='frameitem' id=" + dus + ">" + Items[x].name + "<i class='fa fa-times pull-right' onclick='poplist(" + dus + ")'></i></div>";
@@ -79,6 +79,7 @@ function flag(line) {
         pick = "black";
 
     Items[selected].color = pick;
+
     document.getElementById(line).style.color = Items[selected].color;
 }
 
@@ -112,4 +113,18 @@ function poplist(val) {
     Items.splice(start, end + 1);
     localStorage.Items = JSON.stringify(Items);
     refresh();
+}
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById("content-frame"));
 }
