@@ -21,6 +21,7 @@ function add() {
         localStorage.Items = JSON.stringify(Items);
         Items[Items.length - 1].color = "black";
         document.getElementById("newitem").value = "";
+        document.getElementById("newdesc").value = "";
         refresh();
     }
 }
@@ -89,6 +90,22 @@ function flag(line) {
         pick = "orange";
     else if (pick == "orange")
         pick = "pink";
+    else if (pick == "pink")
+        pick = "aqua";
+    else if (pick == "aqua")
+        pick = "darkcyan";
+    else if (pick == "darkcyan")
+        pick = "coral";
+    else if (pick == "coral")
+        pick = "khaki";
+    else if (pick == "khaki")
+        pick = "magenta";
+    else if (pick == "magenta")
+        pick = "peru";
+    else if (pick == "peru")
+        pick = "royalblue";
+    else if (pick == "royalblue")
+        pick = "seagreen";
     else
         pick = "black";
 
