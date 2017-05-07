@@ -1,0 +1,72 @@
+    body {
+        text-shadow: 0 1px 2px #000000;
+        background-image: linear-gradient(to right, #42CAFC, #6CE9FC);
+        background-color: #4EFCF0;
+        color: white;
+    }
+    
+    .textbox {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    
+    .textbox input {
+        width: 96%;
+        height: 25px;
+        margin: 5px;
+    }
+    
+    .frame {
+        display: inline-block;
+        text-shadow: 0 1px 0 #48576D;
+        min-width: 220px;
+        Width: auto;
+        height: 200px;
+        font-family: Verdana;
+        background-color: #FCFAF9;
+        color: black;
+        margin: 5px;
+    }
+    
+    .frame-head {
+        width: 90%;
+        padding: 5%;
+        background-color: #f2f2f2;
+        font-size: 20px;
+    }
+    
+    .frame-content {
+        padding: 5%;
+    }
+    
+    .btn {
+        display: inline-block;
+        border: none;
+        color: #FFF;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        font-family: Verdana;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        padding: 10px 40px;
+        box-shadow: inset 0px 1px 1px 0 #90ADD2, 0px 5px 0px 0 #223955, 0px 8px 5px 0 #B3B3B3;
+        -moz-box-shadow: inset 0px 1px 1px 0 #90ADD2, 0px 5px 0px 0 #223955, 0px 8px 5px 0 #B3B3B3;
+        -webkit-box-shadow: inset 0px 1px 1px 0 #90ADD2, 0px 5px 0px 0 #223955, 0px 8px 5px 0 #B3B3B3;
+        text-shadow: 0 1px 0 #48576D;
+        background-image: linear-gradient(to right, #5884BC, #395e8d);
+        background-color: #4471a9;
+    }
+    
+    .btn:hover,
+    .btn:active {
+        border: none;
+        color: #FFF;
+        box-shadow: inset 0px 1px 0px 0 #90ADD2, 0px 2px 0px 0 #223955, 0px 4px 3px 0 #6B6B6B;
+        -moz-box-shadow: inset 0px 1px 0px 0 #90ADD2, 0px 2px 0px 0 #223955, 0px 4px 3px 0 #6B6B6B;
+        -webkit-box-shadow: inset 0px 1px 0px 0 #90ADD2, 0px 2px 0px 0 #223955, 0px 4px 3px 0 #6B6B6B;
+        background-color: #395e8d;
+    }

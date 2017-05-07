@@ -71,20 +71,20 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="paper.jpg" />
-    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="paper.jpg"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="paper.jpg"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="paper.jpg"     gap:platform="blackberry" />
-    <icon src="paper.jpg"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="paper.jpg"            gap:platform="ios"        width="57" height="57" />
-    <icon src="paper.jpg"            gap:platform="ios"        width="72" height="72" />
-    <icon src="paper.jpg"         gap:platform="ios"        width="114" height="114" />
-    <icon src="paper.jpg"         gap:platform="ios"        width="144" height="144" />
-    <icon src="paper.jpg"          gap:platform="webos" />
-    <icon src="paper.jpg"  gap:platform="winphone" />
-    <icon src="paper.jpg" gap:platform="winphone"   gap:role="background" />
+    <icon src="icons/paper.jpg" />
+    <icon src="icons/paper.jpg"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="icons/paper.jpg"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="icons/paper.jpg"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="icons/paper.jpg"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="icons/paper.jpg"     gap:platform="blackberry" />
+    <icon src="icons/paper.jpg"     gap:platform="blackberry" gap:state="hover"/>
+    <icon src="icons/paper.jpg"            gap:platform="ios"        width="57" height="57" />
+    <icon src="icons/paper.jpg"            gap:platform="ios"        width="72" height="72" />
+    <icon src="icons/paper.jpg"         gap:platform="ios"        width="114" height="114" />
+    <icon src="icons/paper.jpg"         gap:platform="ios"        width="144" height="144" />
+    <icon src="icons/paper.jpg"          gap:platform="webos" />
+    <icon src="icons/paper.jpg"  gap:platform="winphone" />
+    <icon src="icons/paper.jpg" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />

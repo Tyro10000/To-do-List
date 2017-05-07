@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="list.css">
+    <link rel="stylesheet" type="text/css" href="notie.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>To-Do List</title>
 </head>
@@ -10,24 +10,27 @@
 <body>
     <div class="menu">
 
-        <p style="text-align:center; font-size:30px;">To-Do List</p>
+        <p style="text-align:center; font-size:48px;">Notie</p>
 
         <div class="textbox">
             <input type="text" class="field" id="newitem"></input>
         </div>
         <div class="textbox">
-            <div style="width:80%; margin-left:auto; margin-right:auto;">
-                <button class="btn" onclick="add()"><i class='fa fa-plus'></i></button>
-                <button class="btn" onclick="topic()"><i class='fa fa-check'></i></button>
-                <button class="btn" onclick="clean()"><i class='fa fa-minus'></i></button>
-            </div>
+            <textarea rows="4" cols="50" type="text" class="field" id="newdesc" style="height: 50px; resize:none"></textarea>
+        </div>
+        <div class="textbox">
+            <button class="btn" onclick="add()"><i class='fa fa-plus'></i></button>
+            <button class="btn" onclick="clean()"><i class='fa fa-minus'></i></button>
+
         </div>
     </div>
     <div id="content-frame">
 
+
     </div>
 
+
 </body>
-<script type="text/javascript" src="list.js"></script>
+<script type="text/javascript" src="notie.js"></script>
 
 </html>

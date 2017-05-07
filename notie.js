@@ -17,6 +17,7 @@ function add() {
     if (document.getElementById("newitem").value != "") {
         Items.push(task);
         Items[Items.length - 1].name = document.getElementById("newitem").value;
+        Items[Items.length - 1].meta = document.getElementById("newdesc").value;
         localStorage.Items = JSON.stringify(Items);
         Items[Items.length - 1].color = "black";
         document.getElementById("newitem").value = "";
@@ -30,6 +31,7 @@ function topic() {
     Items[Items.length - 1].color = "#85F2E4";
     localStorage.Items = JSON.stringify(Items);
     document.getElementById("newitem").value = "";
+    document.getElementById("newdesc").value = "";
     refresh();
 }
 
@@ -43,7 +45,7 @@ function relist() {
     for (x = 0; x < Items.length; x++) {
         var dus = '"' + Items[x].name + '"';
         if (Items[x].head != "x") {
-            document.getElementById("content-frame").innerHTML += "<div draggable='true' ondragstart='drag(event)' ondrop='drop(event)' ondragover='allowDrop(event)' class='frameitem' id=" + dus + ">" + Items[x].name + "<i class='fa fa-check pull-right' onclick='flag(" + dus + ")'></i><i class='fa fa-times pull-right' onclick='pop(" + dus + ")'></i></div>";
+            document.getElementById("content-frame").innerHTML += "<div class='frame' id=" + dus + "><div class='frame-head'>" + Items[x].name + "<i class='fa fa-check pull-right' onclick='flag(" + dus + ")'></i><i class='fa fa-times pull-right' onclick='pop(" + dus + ")'></i><i class='fa fa-plus pull-right' onclick='pop(" + dus + ")'></i></div><div class='frame-content'>" + Items[x].meta + "</div></div>";
             document.getElementById(Items[x].name).style.color = Items[x].color;
         } else {
             document.getElementById("content-frame").innerHTML += "<div  style='text-align:center' class='frameitem' id=" + dus + ">" + Items[x].name + "<i class='fa fa-times pull-right' onclick='poplist(" + dus + ")'></i></div>";
@@ -75,6 +77,18 @@ function flag(line) {
         pick = "red";
     else if (pick == "red")
         pick = "green";
+    else if (pick == "green")
+        pick = "purple";
+    else if (pick == "purple")
+        pick = "steelblue";
+    else if (pick == "steelblue")
+        pick = "gold";
+    else if (pick == "gold")
+        pick = "plum";
+    else if (pick == "plum")
+        pick = "orange";
+    else if (pick == "orange")
+        pick = "pink";
     else
         pick = "black";
 
